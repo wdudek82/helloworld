@@ -2,666 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc83b34-eb09-4df2-a02d-6ad7e60f9b3f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/back_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/close_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/djdt_vertical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/img/indicator.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/backgrounds/changelist-results.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/backgrounds/loading-small.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/backgrounds/messagelist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/backgrounds/nav-grabber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/backgrounds/ui-sortable-placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-s846f870921.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small-scbbb475e49.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/add-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/add-link_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/change-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/change-link_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/delete-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/filter-choice-selected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/link-external.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/link-external_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/link-internal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/link-internal_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons-small/sort-remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/add-another.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/add-another_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/back-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/back-link_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/breadcrumbs-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/breadcrumbs-rtl_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/breadcrumbs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/breadcrumbs_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/date-hierarchy-back-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/date-hierarchy-back-rtl_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/date-hierarchy-back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/date-hierarchy-back_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/datepicker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/datepicker_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/datetime-now.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/datetime-now_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/form-select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/object-tools-add-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/object-tools-viewsite-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/pulldown-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/pulldown-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/pulldown-handler_selected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/related-lookup-m2m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/related-lookup-m2m_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/related-lookup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/related-lookup_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/related-remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/related-remove_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/searchbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-add-m2m-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-add-m2m-horizontal_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-add-m2m-vertical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-add-m2m-vertical_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-remove-m2m-horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-remove-m2m-horizontal_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-remove-m2m-vertical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/selector-remove-m2m-vertical_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/sort-remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/sort-remove_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/sorted-ascending.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/sorted-descending.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/status-no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/status-unknown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/status-yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/th-ascending.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/th-descending.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/timepicker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/timepicker_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-add-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-add-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-arrow-down-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-arrow-down-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-arrow-up-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-arrow-up-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-close-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-close-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-delete-handler-predelete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-delete-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-delete-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-drag-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-drag-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-open-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-open-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-remove-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-remove-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-trash-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-trash-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-trash-list-toggle-handler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-trash-list-toggle-handler_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-viewsite-link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/tools-viewsite-link_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/ui-datepicker-next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/ui-datepicker-next_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/ui-datepicker-prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/images/icons/ui-datepicker-prev_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/img/admin/arrow-down.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/img/admin/arrow-up.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_flat_10_000000_40x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_glass_100_f6f6f6_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_glass_100_fdf5ce_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-icons_222222_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-icons_228ef1_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-icons_ef8c08_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-icons_ffd27a_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/images/ui-icons_ffffff_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/logo_over.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.avi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.dcr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.flv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.mov" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.rm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img/sample.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/img/sample.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cool.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cry.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-frown.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-yell.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img/example.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/show_advanced.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/img/visualchars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/moxieplayer.swf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img/wline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/colorpicker.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/flash.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/iframe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/pagebreak.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/quicktime.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/realmedia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/shockwave.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/video.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/windowsmedia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/items.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/progress.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/blockquote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/bullist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/charmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/cleanup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifycenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyfull.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/justifyright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/media.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/numlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/pasteword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/show_advanced.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_cell_props.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_after.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_col_before.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_delete_row.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_merge_cells.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_after.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_before.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_row_props.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/table_split_cells.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/template.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/unlink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/buttons/visualchars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/button_pagebreak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/customized/pagebreak.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show-hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-fb_show.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/icons/icon-mceResize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/img/menu/icon-mceOpen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img/icons.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/helloworld.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0002_hello_created_at.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0003_auto_20160730_2051.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0004_auto_20160730_2052.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0005_auto_20160730_2054.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0006_auto_20160730_2055.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0007_auto_20160730_2100.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0008_auto_20160730_2103.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0009_auto_20160730_2104.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0010_auto_20160730_2126.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0011_auto_20160731_1016.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0012_auto_20160731_1102.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0013_auto_20160731_1106.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0014_auto_20160731_1108.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0015_auto_20160731_1122.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0016_auto_20160731_1122.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0017_auto_20160731_1125.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0018_auto_20160731_1125.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0019_auto_20160731_1128.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0020_auto_20160731_1133.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0021_delete_parent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0022_auto_20160731_1144.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0023_auto_20160731_1406.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0024_auto_20160731_1410.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0025_auto_20160731_1412.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/0026_auto_20160731_1938.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/templates/app1/create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/templates/app1/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heart/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heart/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heart/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/heart/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/changelists.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/css/widgets.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/fonts/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/calendar-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/gis/move_vertex_off.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/gis/move_vertex_on.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-addlink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-alert.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-calendar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-changelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-clock.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-deletelink.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-no.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-unknown-alt.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-unknown.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/icon-yes.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/inline-delete.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/search.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/selector-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/sorting-icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/tooltag-add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/img/tooltag-arrowright.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/LICENSE-JQUERY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/SelectBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/SelectFilter2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/actions.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/calendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/collapse.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/inlines.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/inlines.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/jquery.init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/timeparse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/urlify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/xregexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/css/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/css/toolbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/jquery_existing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/jquery_post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/jquery_pre.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/toolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/toolbar.profiling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/toolbar.sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/toolbar.template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/debug_toolbar/js/toolbar.timer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/jquery-2.1.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/jquery/ui/jquery-ui.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/grappelli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/grappelli.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_autocomplete_fk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_autocomplete_generic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_autocomplete_m2m.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_collapsible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_collapsible_group.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_inline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_related_fk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_related_generic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_related_m2m.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/js/jquery.grp_timepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/stylesheets/mueller/grid/output-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/stylesheets/mueller/grid/output.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/stylesheets/mueller/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/stylesheets/partials/custom/tinymce.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/stylesheets/rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/stylesheets/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/changelog.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/accessibility.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/css/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/css/word.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/custom_formats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/full.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/lists/image_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/lists/link_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/lists/media_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/lists/template_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/media/sample.ram" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/skins.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/templates/layout1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/templates/snippet1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/examples/word.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/license.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/css/advimage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage_orig/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/css/advlink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/js/advlink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink_orig/link.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli/langs/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/grappelli_contextmenu/langs/ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media/media.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/css/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/js/media.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/media_orig/media.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pastetext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/js/pasteword.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pastetext.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/paste_orig/pasteword.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/css/searchreplace.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/js/searchreplace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace_orig/searchreplace.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/props.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/style/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/blank.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/css/template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/js/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/template_orig/template.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/visualblocks/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/color_picker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en_dlg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_cs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_de.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_en.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_documentstructure_pl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/content_typography.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/customized.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/grappelli/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/tiny_mce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_popup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_cdn/grappelli/tinymce_setup/tinymce_setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/versions.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/static/app1/css/style.css" afterPath="$PROJECT_DIR$/app1/static/app1/css/style.css" />
     </list>
     <ignored path="helloworld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -713,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heart/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -747,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app1/static/app1/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -823,10 +165,10 @@
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/heart/settings.py" />
         <option value="$PROJECT_DIR$/static_cdn/app1/css/style.css" />
-        <option value="$PROJECT_DIR$/app1/static/app1/css/style.css" />
         <option value="$PROJECT_DIR$/app1/templates/app1/create.html" />
         <option value="$PROJECT_DIR$/app1/templates/app1/example.html" />
         <option value="$PROJECT_DIR$/heart/urls.py" />
+        <option value="$PROJECT_DIR$/app1/static/app1/css/style.css" />
       </list>
     </option>
   </component>
@@ -1128,6 +470,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="heart.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -1168,27 +511,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="998" y="26" width="922" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24821973" sideWeight="0.49337748" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171626" sideWeight="0.48423195" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25108695" sideWeight="0.48855835" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17825662" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171626" sideWeight="0.51576805" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25108695" sideWeight="0.51144165" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2331048" sideWeight="0.5066225" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3501144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1516,18 +860,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/fcc8bb12/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_hello">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/fcc8bb12/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_hello" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1535,18 +868,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/fcc8bb12/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_example">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/fcc8bb12/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_example" />
     <entry file="file://$PROJECT_DIR$/app1/migrations/0012_auto_20160731_1102.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -1619,14 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app1/static/app1/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app1/templates/app1/example.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1642,6 +956,14 @@
           <folding>
             <element signature="e#638#679#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/static/app1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

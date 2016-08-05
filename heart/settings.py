@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'heart.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'helloworld',
-        'USER': 'helloworld',
-        'PASSWORD': '@@helloworld@@',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
@@ -137,6 +137,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 # Grappelli settings
 GRAPPELLI_ADMIN_TITLE = 'Hello World!'
 
+
 # Debug toolbar settings
 def show_toolbar(request):
     # if not request.is_ajax() and request.user and request.user.username == 'neevor':
@@ -148,3 +149,8 @@ DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': 'heart.settings.show_toolbar',
     # Rest of config
 }
+
+if DEBUG:
+    from backend.development import DATABASES
+
+

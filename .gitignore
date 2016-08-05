@@ -2,4 +2,4 @@ settings-local.py
 *.pyc
 /data
 /static
-/venvs
+backend/development.py

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'app1/css/style.css' %}">
+        <meta charset="UTF-8">
+        <title>Example: {{ example_obj.tag }}</title>
+    </head>
+    <body>
+        <div class="box_main">
+            <div class="box2">
+                <h1>Hello World!</h1>
+            </div>
+        </div>
+
+        <div class="box_main">
+            <div class="box1">
+                <p>
+                <a href="{% url 'app1:ocreate' %}">Create Example</a> ::
+                {% for example in examples %}
+                <a href="{% url 'app1:oexample' example.slug %}">
+                    <span {% if example.slug == example_obj.slug %}class="present"{% endif %}>
+                    {{ example.tag }}
+                    </span>
+
+                </a>
+                {% endfor %}
+                </p>
+
+                <h1>Example: {{ example_obj.pk }}. {{ example_obj.name }}</h1>
+                <ul>
+                    <li>Name: {{ example_obj.name }}</li>
+                    <li>Slug: {{ example_obj.slug }}</li>
+                    <li>Tag: {{ example_obj.tag }}</li>
+                    <li>Flag: {{ example_obj.flag }}</li>
+                    <li>Created_at: {{ example_obj.created_at }}</li>
+                    <li>Updated_at: {{ example_obj.updated_at }}</li>
+                </ul>
+
+                <ul>
+                    <li>Request method: {{ request.method }}</li>
+                    <li>Request GET: {{ request.GET }}</li>
+                    <li>Request POST: {{ request.POST }}</li>
+                    <li>Request user: {{ request.user }}</li>
+                </ul>
+            </div>
+
+            <div class="box1">
+                <p>
+                <a href="{% url 'app1:ocreate' %}">Create Example</a> ::
+                {% for example in examples %}
+                <a href="{% url 'app1:oexample' example.slug %}">
+                    <span {% if example.slug == example_obj.slug %}class="present"{% endif %}>
+                    {{ example.tag }}
+                    </span>
+
+                </a>
+                {% endfor %}
+                </p>
+
+                <h1>Example: {{ example_obj.pk }}. {{ example_obj.name }}</h1>
+                <ul>
+                    <li>Name: {{ example_obj.name }}</li>
+                    <li>Slug: {{ example_obj.slug }}</li>
+                    <li>Tag: {{ example_obj.tag }}</li>
+                    <li>Flag: {{ example_obj.flag }}</li>
+                    <li>Created_at: {{ example_obj.created_at }}</li>
+                    <li>Updated_at: {{ example_obj.updated_at }}</li>
+                </ul>
+
+                <ul>
+                    <li>Request method: {{ request.method }}</li>
+                    <li>Request GET: {{ request.GET }}</li>
+                    <li>Request POST: {{ request.POST }}</li>
+                    <li>Request user: {{ request.user }}</li>
+                </ul>
+            </div>
+            <div class="box1">
+                <p>
+                <a href="{% url 'app1:ocreate' %}">Create Example</a> ::
+                {% for example in examples %}
+                <a href="{% url 'app1:oexample' example.slug %}">
+                    <span {% if example.slug == example_obj.slug %}class="present"{% endif %}>
+                    {{ example.tag }}
+                    </span>
+
+                </a>
+                {% endfor %}
+                </p>
+
+                <h1>Example: {{ example_obj.pk }}. {{ example_obj.name }}</h1>
+                <ul>
+                    <li>Name: {{ example_obj.name }}</li>
+                    <li>Slug: {{ example_obj.slug }}</li>
+                    <li>Tag: {{ example_obj.tag }}</li>
+                    <li>Flag: {{ example_obj.flag }}</li>
+                    <li>Created_at: {{ example_obj.created_at }}</li>
+                    <li>Updated_at: {{ example_obj.updated_at }}</li>
+                </ul>
+
+                <ul>
+                    <li>Request method: {{ request.method }}</li>
+                    <li>Request GET: {{ request.GET }}</li>
+                    <li>Request POST: {{ request.POST }}</li>
+                    <li>Request user: {{ request.user }}</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

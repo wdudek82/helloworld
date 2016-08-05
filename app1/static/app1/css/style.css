@@ -1,0 +1,22 @@
+.present {
+    color: red;
+    font-weight: 700;
+}
+
+.box_main {
+    margin: 50px;
+    padding: 10px;
+    background: #aca4c4;
+}
+
+.box1 {
+    margin: 20px;
+    padding: 50px;
+    background-color: #f1f4ff;
+}
+
+.box2 {
+    text-align: center;
+    color: #ffd333;
+}
+

@@ -2,7 +2,7 @@ settings-local.py
 *.pyc
 /data
 /static
-backend/development.py
+development.py
 app1/__pycache__/
 app1/migrations/__pycache__/
 backend/__pycache__/

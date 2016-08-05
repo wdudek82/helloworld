@@ -4,6 +4,31 @@ from django.db.models.signals import pre_save
 from django.utils.text import slugify
 from django.core.urlresolvers import reverse
 
+
+# TODO: Create polling app to avoid mess
+####################
+# Polling app models
+####################
+class Question(models.Model):
+    question_text = models.CharField(max_length=200)
+    pub_date = models.DateTimeField('date published')
+
+    def __str__(self):
+        return '{}. {}'.format(self.id, self.question_text)
+
+
+class Choice(models.Model):
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    choice_text = models.CharField(max_length=200)
+    votes = models.IntegerField(default=0)
+
+    def __str__(self):
+        return '{}. {}'.format(self.id, self.choice_text)
+
+
+##############################
+# Playing with abstract models
+##############################
 class Parent(models.Model):
     name = models.ForeignKey('auth.User')
     flag = models.BooleanField()
@@ -41,6 +66,7 @@ def create_slug(instance, new_slug=None):
         new_slug = '{}-{}'.format(slug, qs.first().id)
         return create_slug(instance, new_slug=new_slug)
     return slug
+
 
 def pre_save_example_receiver(sender, instance, *args, **kwargs):
     if not instance.slug:

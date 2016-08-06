@@ -4,7 +4,7 @@ settings-local.py
 /media
 /static
 /static_cdn
-development.py
+/backend/development.py
 app1/__pycache__/
 app1/migrations/__pycache__/
 backend/__pycache__/

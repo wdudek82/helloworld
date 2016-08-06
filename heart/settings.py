@@ -80,15 +80,10 @@ WSGI_APPLICATION = 'heart.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': '',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
@@ -141,7 +136,7 @@ GRAPPELLI_ADMIN_TITLE = 'Hello World!'
 # Debug toolbar settings
 def show_toolbar(request):
     # if not request.is_ajax() and request.user and request.user.username == 'neevor':
-    if not request.is_ajax() and request.user:
+    if not request.is_ajax() and request.user == 'wdudek':
         return True
     return False
 
@@ -150,7 +145,7 @@ DEBUG_TOOLBAR_CONFIG = {
     # Rest of config
 }
 
-if DEBUG:
-    from backend.development import DATABASES
+if not DEBUG:
+    from backend.config import *
 
 

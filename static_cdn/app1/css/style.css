@@ -1,4 +1,22 @@
 .present {
-    color: #ff7879;
-    font-weight: bold;
+    color: red;
+    font-weight: 700;
 }
+
+.box_main {
+    margin: 50px;
+    padding: 10px;
+    background: #46464b;
+}
+
+.box1 {
+    margin: 20px;
+    padding: 50px;
+    background-color: #f1f4ff;
+}
+
+.box2 {
+    text-align: center;
+    color: #ffd333;
+}
+

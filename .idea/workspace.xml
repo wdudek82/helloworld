@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc83b34-eb09-4df2-a02d-6ad7e60f9b3f" name="Default" comment="Changed .gitignore #2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/icon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/icon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/img/sky3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/icon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/icon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media_cdn/img/sky3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/css/style_boot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/static/app1/js/jquery.maphilight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app1/templates/app1/btutorial.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/backend/config.py" afterPath="$PROJECT_DIR$/backend/production.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/static/app1/css/style.css" afterPath="$PROJECT_DIR$/app1/static/app1/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/templates/app1/create.html" afterPath="$PROJECT_DIR$/app1/templates/app1/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/templates/app1/example.html" afterPath="$PROJECT_DIR$/app1/templates/app1/example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/urls.py" afterPath="$PROJECT_DIR$/app1/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/views.py" afterPath="$PROJECT_DIR$/app1/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/development.py" afterPath="$PROJECT_DIR$/backend/development.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heart/settings.py" afterPath="$PROJECT_DIR$/heart/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/production.py" afterPath="$PROJECT_DIR$/backend/production.py" />
     </list>
     <ignored path="helloworld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/heart/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
+            <state relative-caret-position="423">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -100,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="production.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -144,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,10 +174,10 @@
         <option value="$PROJECT_DIR$/app1/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/development.py" />
-        <option value="$PROJECT_DIR$/heart/settings.py" />
         <option value="$PROJECT_DIR$/app1/static/app1/css/style_boot.css" />
         <option value="$PROJECT_DIR$/app1/templates/app1/btutorial.html" />
         <option value="$PROJECT_DIR$/backend/production.py" />
+        <option value="$PROJECT_DIR$/heart/settings.py" />
       </list>
     </option>
   </component>
@@ -259,6 +234,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1025,7 +1014,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1060,22 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app1/static/app1/css/style_boot.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heart/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="133" column="48" selection-start-line="133" selection-start-column="48" selection-end-line="133" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app1/templates/app1/example.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1100,10 +1073,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app1/static/app1/css/style_boot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="216">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heart/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding />
         </state>
       </provider>

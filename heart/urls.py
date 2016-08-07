@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from app1 import views
 
 urlpatterns = [
     url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', admin.site.urls),
 
     url(r'^app1/', include('app1.urls', namespace='app1')),
+    url(r'', views.Boot.as_view(), name='boot'),
 ]
 

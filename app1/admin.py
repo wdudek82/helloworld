@@ -1,13 +1,5 @@
 from django.contrib import admin
-from .models import Hello, Example, Question, Choice
-
-
-class QuestionModelAdmin(admin.ModelAdmin):
-    list_display = ['id', 'question_text', 'pub_date']
-
-
-class ChoiceModelAdmin(admin.ModelAdmin):
-    list_display = ['id', 'question', 'choice_text', 'votes']
+from .models import Hello, Example
 
 
 class HelloModelAdmin(admin.ModelAdmin):
@@ -24,7 +16,5 @@ class ExampleModelAdmin(admin.ModelAdmin):
         model = Example
 
 
-admin.site.register(Question, QuestionModelAdmin)
-admin.site.register(Choice, ChoiceModelAdmin)
 admin.site.register(Hello, HelloModelAdmin)
 admin.site.register(Example, ExampleModelAdmin)

@@ -87,6 +87,12 @@ class ExampleCreate(RedirectView, Mixins):
             self.context
         )
 
+
+class Boot(View):
+    def get(self, request):
+        return render(request, 'app1/btutorial.html')
+
+
 ###########################
 # Generic Class-based Views
 ###########################

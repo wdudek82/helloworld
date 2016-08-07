@@ -1,0 +1,32 @@
+.icon {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.icon2 {
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.services section {
+    text-align: center;
+}
+
+.bgimage {
+    background-image: url('../img/sky3.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+.bgclass {
+    background-color: #aab7b8;
+    background-position: center, center;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}

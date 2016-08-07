@@ -4,7 +4,8 @@
 
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+{#        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">#}
         <link rel="stylesheet" href="{% static 'app1/css/style.css' %}">
         <meta charset="UTF-8">
         <title>Example: {{ example_obj.tag }}</title>
@@ -23,10 +24,7 @@
                 {% for example in examples %}
                 <a href="{% url 'app1:oexample' example.slug %}">
                     <span {% if example.slug == example_obj.slug %}class="present"{% endif %}>
-                    {{ example.tag }}
-                    </span>
-
-                </a>
+                        {{ example.tag }}</span></a>
                 {% endfor %}
                 </p>
 

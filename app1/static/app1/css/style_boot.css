@@ -30,3 +30,8 @@
     font-size: 25px;
     font-weight: 700;
 }
+
+p::-moz-selection {
+    background: orange;
+    color: blue;
+}

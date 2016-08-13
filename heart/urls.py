@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
     url(r'^app1/', include('app1.urls', namespace='app1')),
+    url(r'^poll/', include('poll.urls', namespace='poll')),
     url(r'^$', views.Boot.as_view(), name='boot'),
 ]
 

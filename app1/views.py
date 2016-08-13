@@ -80,7 +80,7 @@ class ExampleCreate(RedirectView, Mixins):
         bound_form = self.form_class(request.POST)
         if bound_form.is_valid():
             new_obj = bound_form.save()
-            return redirect(self.get_abs_url('app1:oexample', 'slug', new_obj.slug)) # TODO: Fix redirection
+            return redirect(self.get_abs_url('app1:oexample', 'slug', new_obj.slug))
         return render(
             request,
             self.template_name,

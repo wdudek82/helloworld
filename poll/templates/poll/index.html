@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Polls Index</title>
+</head>
+<body>
+    <h1>Polls Index</h1>
+
+    {% for question in questions %}
+        <p><b>{{ question }}. {{ question.question_text }}</b></p>
+        {{ question.choice_set.all|unordered_list }}
+    {% endfor %}
+</body>
+</html>

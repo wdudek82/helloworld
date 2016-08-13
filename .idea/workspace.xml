@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc83b34-eb09-4df2-a02d-6ad7e60f9b3f" name="Default" comment="Changed .gitignore #2">
+    <list default="true" id="3dc83b34-eb09-4df2-a02d-6ad7e60f9b3f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/poll/templates/poll/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/poll/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/static/app1/css/style_boot.css" afterPath="$PROJECT_DIR$/app1/static/app1/css/style_boot.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/development.py" afterPath="$PROJECT_DIR$/backend/development.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app1/views.py" afterPath="$PROJECT_DIR$/app1/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/heart/urls.py" afterPath="$PROJECT_DIR$/heart/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/admin.py" afterPath="$PROJECT_DIR$/poll/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/models.py" afterPath="$PROJECT_DIR$/poll/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/poll/views.py" afterPath="$PROJECT_DIR$/poll/views.py" />
     </list>
     <ignored path="helloworld.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,30 +47,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - helloworld@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - helloworld@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -78,132 +57,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="development.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/development.py">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/poll/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helloworld.public.app1_choice" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_choice">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DATABASE/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.SCHEMA:helloworld.public" pinned="false" current-in-tab="true">
-        <entry file="uml://DATABASE/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.SCHEMA:helloworld.public">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.SCHEMA:helloworld.public</OriginalElement>
-              <nodes>
-                <node x="736.7613636363635" y="0.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type</node>
-                <node x="10.0" y="754.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_question</node>
-                <node x="208.99999999999994" y="551.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups</node>
-                <node x="559.0" y="150.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user</node>
-                <node x="257.48863636363626" y="230.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission</node>
-                <node x="1069.0" y="494.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log</node>
-                <node x="619.0" y="528.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_hello</node>
-                <node x="220.0" y="754.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_migrations</node>
-                <node x="0.0" y="904.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_choice</node>
-                <node x="383.99999999999994" y="551.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions</node>
-                <node x="75.0454545454545" y="253.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group</node>
-                <node x="440.0" y="754.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_session</node>
-                <node x="0.0" y="551.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions</node>
-                <node x="834.0" y="517.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-                  <point x="0.0" y="-84.5" />
-                  <point x="941.5" y="474.0" />
-                  <point x="779.5" y="474.0" />
-                  <point x="63.0" y="142.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_choice" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_question">
-                  <point x="0.0" y="-61.5" />
-                  <point x="0.0" y="50.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission">
-                  <point x="47.25" y="-50.0" />
-                  <point x="141.75" y="474.0" />
-                  <point x="301.23863636363626" y="474.0" />
-                  <point x="-43.75" y="61.5" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group">
-                  <point x="-47.25" y="-50.0" />
-                  <point x="47.25" y="474.0" />
-                  <point x="108.7954545454545" y="474.0" />
-                  <point x="-33.75" y="38.5" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-                  <point x="53.75000000000006" y="-50.0" />
-                  <point x="545.25" y="474.0" />
-                  <point x="653.5" y="474.0" />
-                  <point x="-63.0" y="142.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-                  <point x="38.75" y="-50.0" />
-                  <point x="325.24999999999994" y="464.0" />
-                  <point x="590.5" y="464.0" />
-                  <point x="-126.0" y="142.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type">
-                  <point x="0.0" y="-61.5" />
-                  <point x="344.98863636363626" y="125.0" />
-                  <point x="778.2613636363635" y="125.0" />
-                  <point x="-41.5" y="50.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission">
-                  <point x="-53.74999999999994" y="-50.0" />
-                  <point x="437.75" y="454.0" />
-                  <point x="388.73863636363626" y="454.0" />
-                  <point x="43.75" y="61.5" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group">
-                  <point x="-38.75" y="-50.0" />
-                  <point x="247.74999999999994" y="464.0" />
-                  <point x="176.2954545454545" y="464.0" />
-                  <point x="33.75" y="38.5" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-                  <point x="-63.75" y="-107.5" />
-                  <point x="1132.75" y="464.0" />
-                  <point x="842.5" y="464.0" />
-                  <point x="126.0" y="142.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_hello" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-                  <point x="0.0" y="-73.0" />
-                  <point x="0.0" y="142.0" />
-                </edge>
-                <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type">
-                  <point x="63.75" y="-107.5" />
-                  <point x="1260.25" y="125.0" />
-                  <point x="861.2613636363635" y="125.0" />
-                  <point x="41.5" y="50.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.8347659980897804" x="662.3426773455377" y="384.35640732265443" />
-              <SelectedNodes>
-                <node>00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
+            <state relative-caret-position="468">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,10 +72,44 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app1/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/templates/poll/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/poll/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,8 +119,10 @@
         <entry file="file://$PROJECT_DIR$/app1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding />
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -234,8 +131,22 @@
         <entry file="file://$PROJECT_DIR$/heart/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-              <folding />
+              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+              <folding>
+                <element signature="e#638#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app1/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="882">
+              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,20 +181,24 @@
         <option value="$PROJECT_DIR$/app1/static/app1/css/style.css" />
         <option value="$PROJECT_DIR$/app1/templates/app1/example.html" />
         <option value="$PROJECT_DIR$/app1/templates/app1/create.html" />
-        <option value="$PROJECT_DIR$/app1/urls.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app1/templates/app1/btutorial.html" />
         <option value="$PROJECT_DIR$/backend/production.py" />
         <option value="$PROJECT_DIR$/heart/settings.py" />
         <option value="$PROJECT_DIR$/app1/models.py" />
-        <option value="$PROJECT_DIR$/app1/views.py" />
         <option value="$PROJECT_DIR$/app1/admin.py" />
-        <option value="$PROJECT_DIR$/heart/urls.py" />
-        <option value="$PROJECT_DIR$/poll/models.py" />
-        <option value="$PROJECT_DIR$/poll/admin.py" />
         <option value="$PROJECT_DIR$/app1/static/app1/css/style_boot.css" />
         <option value="$PROJECT_DIR$/backend/development.py" />
         <option value="dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.django_migrations" />
+        <option value="$PROJECT_DIR$/app1/urls.py" />
+        <option value="$PROJECT_DIR$/heart/urls.py" />
+        <option value="$PROJECT_DIR$/poll/templates/poll/index.html" />
+        <option value="$PROJECT_DIR$/poll/urls.py" />
+        <option value="$PROJECT_DIR$/app1/views.py" />
+        <option value="$PROJECT_DIR$/poll/views.py" />
+        <option value="$PROJECT_DIR$/poll/migrations/0003_question_user.py" />
+        <option value="$PROJECT_DIR$/poll/models.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/poll/admin.py" />
       </list>
     </option>
   </component>
@@ -323,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,6 +264,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -411,10 +349,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,7 +401,45 @@
       <recent name="$PROJECT_DIR$/app1/templates/app1" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.helloworld">
+  <component name="RunManager" selected="Python.settings">
+    <configuration default="false" name="Test: app1.templates.app1.example.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="helloworld" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="app1.templates.app1.example.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/heart" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="helloworld" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/heart/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -698,9 +695,17 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Django server.helloworld" />
+      <item index="1" class="java.lang.String" itemvalue="Django tests.Test: app1.templates.app1.example.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.settings" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.settings" />
+        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: app1.templates.app1.example.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -744,8 +749,20 @@
       <option name="project" value="LOCAL" />
       <updated>1470432491340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed .gitignore #3">
+      <created>1471030137372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471030137372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__app1_templates_app1_example_html - 2016.08.13 at 15h 50m 52s.xml">
+      <configuration name="Test: app1.templates.app1.example.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,28 +775,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17252396" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17412141" sideWeight="0.48913044" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5011442" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49885583" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1773163" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50159746" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1773163" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49840257" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33043477" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26774195" sideWeight="0.51144165" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26774195" sideWeight="0.51144165" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25171626" sideWeight="0.51086956" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3501144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -816,7 +833,8 @@
     <MESSAGE value="Changed location of the dev database config to backend/development.py" />
     <MESSAGE value="Changed .gitignore" />
     <MESSAGE value="Changed .gitignore #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed .gitignore #2" />
+    <MESSAGE value="Changed .gitignore #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed .gitignore #3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -825,80 +843,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/heart/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="129" column="6" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/templates/app1/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/templates/app1/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/models.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heart/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +852,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#638#679#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -921,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,13 +907,6 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/fcc8bb12/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_hello" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/fcc8bb12/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_example" />
     <entry file="file://$PROJECT_DIR$/app1/migrations/0012_auto_20160731_1102.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -999,14 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app1/templates/app1/create.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1028,19 +957,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heart/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/poll/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,29 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="921">
-          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poll/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,15 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
           <caret line="81" column="73" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poll/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,23 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heart/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,7 +996,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1139,43 +1008,11 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/development.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_choice">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app1/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,7 +1020,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1196,7 +1032,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1209,7 +1044,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1222,7 +1056,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1235,7 +1068,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1248,7 +1080,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1257,11 +1088,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.django_admin_log">
+    <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.app1_choice">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.poll_choice">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1276,100 +1118,209 @@
           <ID>DATABASE</ID>
           <OriginalElement>00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.SCHEMA:helloworld.public</OriginalElement>
           <nodes>
-            <node x="736.7613636363635" y="0.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type</node>
-            <node x="10.0" y="754.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_question</node>
-            <node x="208.99999999999994" y="551.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups</node>
-            <node x="559.0" y="150.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user</node>
-            <node x="257.48863636363626" y="230.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission</node>
-            <node x="1069.0" y="494.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log</node>
-            <node x="619.0" y="528.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_hello</node>
-            <node x="220.0" y="754.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_migrations</node>
-            <node x="0.0" y="904.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_choice</node>
-            <node x="383.99999999999994" y="551.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions</node>
-            <node x="75.0454545454545" y="253.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group</node>
-            <node x="440.0" y="754.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_session</node>
-            <node x="0.0" y="551.5">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions</node>
-            <node x="834.0" y="517.0">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.poll_question</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.poll_choice</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_hello</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_migrations</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_session</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions</node>
+            <node x="" y="">00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-              <point x="0.0" y="-84.5" />
-              <point x="941.5" y="474.0" />
-              <point x="779.5" y="474.0" />
-              <point x="63.0" y="142.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_choice" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_question">
-              <point x="0.0" y="-61.5" />
-              <point x="0.0" y="50.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission">
-              <point x="47.25" y="-50.0" />
-              <point x="141.75" y="474.0" />
-              <point x="301.23863636363626" y="474.0" />
-              <point x="-43.75" y="61.5" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group">
-              <point x="-47.25" y="-50.0" />
-              <point x="47.25" y="474.0" />
-              <point x="108.7954545454545" y="474.0" />
-              <point x="-33.75" y="38.5" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-              <point x="53.75000000000006" y="-50.0" />
-              <point x="545.25" y="474.0" />
-              <point x="653.5" y="474.0" />
-              <point x="-63.0" y="142.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-              <point x="38.75" y="-50.0" />
-              <point x="325.24999999999994" y="464.0" />
-              <point x="590.5" y="464.0" />
-              <point x="-126.0" y="142.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type">
-              <point x="0.0" y="-61.5" />
-              <point x="344.98863636363626" y="125.0" />
-              <point x="778.2613636363635" y="125.0" />
-              <point x="-41.5" y="50.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_user_permissions" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_permission">
-              <point x="-53.74999999999994" y="-50.0" />
-              <point x="437.75" y="454.0" />
-              <point x="388.73863636363626" y="454.0" />
-              <point x="43.75" y="61.5" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user_groups" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_group">
-              <point x="-38.75" y="-50.0" />
-              <point x="247.74999999999994" y="464.0" />
-              <point x="176.2954545454545" y="464.0" />
-              <point x="33.75" y="38.5" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-              <point x="-63.75" y="-107.5" />
-              <point x="1132.75" y="464.0" />
-              <point x="842.5" y="464.0" />
-              <point x="126.0" y="142.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_hello" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.auth_user">
-              <point x="0.0" y="-73.0" />
-              <point x="0.0" y="142.0" />
-            </edge>
-            <edge source="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_admin_log" target="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.django_content_type">
-              <point x="63.75" y="-107.5" />
-              <point x="1260.25" y="125.0" />
-              <point x="861.2613636363635" y="125.0" />
-              <point x="41.5" y="50.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8347659980897804" x="662.3426773455377" y="384.35640732265443" />
-          <SelectedNodes>
-            <node>00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd.TABLE:helloworld.public.app1_example</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8347659980897804" x="662.0" y="384.0" />
+          <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
+            <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/development.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heart/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heart/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="e#638#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/migrations/0004_auto_20160813_0028.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/migrations/0003_question_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.poll_question">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a59d244a/00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd/helloworld.public.django_admin_log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app1/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/templates/poll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#helloworld">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#helloworld</OriginalElement>
+          <nodes>
+            <node x="" y="">app1.models.Example</node>
+            <node x="" y="">django.contrib.auth.models.User</node>
+            <node x="" y="">poll.models.Choice</node>
+            <node x="" y="">app1.models.Hello</node>
+            <node x="" y="">poll.models.Question</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="172.5" y="132.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/poll/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

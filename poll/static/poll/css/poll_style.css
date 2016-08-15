@@ -1,0 +1,15 @@
+.bgimage {
+    background-image: url('http://feelgrafix.com/data/background/background-18.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    /*margin-bottom: 20px;*/
+}
+
+nav {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+}

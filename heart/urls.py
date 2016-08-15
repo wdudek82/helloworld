@@ -19,10 +19,10 @@ from app1 import views
 
 urlpatterns = [
     url(r'^grappelli/', include('grappelli.urls')),
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls, name='adminis'),
 
-    url(r'^app1/', include('app1.urls', namespace='app1')),
-    url(r'^poll/', include('poll.urls', namespace='poll')),
+    url(r'^app1/', include('app1.urls')),
+    url(r'^poll/', include('poll.urls')),
     url(r'^$', views.Boot.as_view(), name='boot'),
 ]
 

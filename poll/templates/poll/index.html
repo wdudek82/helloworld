@@ -1,15 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Polls Index</title>
-</head>
-<body>
-    <h1>Polls Index</h1>
+{% extends 'poll/base.html' %}
 
-    {% for question in questions %}
-        <p><b>{{ question }}. {{ question.question_text }}</b></p>
-        {{ question.choice_set.all|unordered_list }}
-    {% endfor %}
-</body>
-</html>
+{% load staticfiles %}
+
+{% block head_title %}
+{{ block.super }} | Index
+{% endblock head_title %}
+
+{% block content %}
+<section class="col-sm-12">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        {% for question in questions %}
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#question{{ question.id }}" aria-expanded="false" aria-controls="question{{ question.id }}">
+                    {{ question }}. {{ question.question_text }}
+                </a>
+                </h4>
+            </div>
+            <div id="question{{ question.id }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                    <ul>
+                        {% for choice in question.choice_set.all %}
+                            <li>
+                                {{ choice.choice_text }}
+                                ({{ choice.votes }}
+                                {% if choice.votes == 1 %}
+                                vote)
+                                {% else %}
+                                votes)
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+{% endblock content %}
+
+
+{#    <h1>Poll Questions</h1>#}
+{#    {% for question in questions %}#}
+{#        {{ question }}.#}
+{#        <a href="{% url 'poll:detail' question %}">#}
+{#        {{ question.question_text }}#}
+{#        </a><br>#}
+{#    {% endfor %}#}

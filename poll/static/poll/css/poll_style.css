@@ -2,12 +2,12 @@
     background-image: url('http://feelgrafix.com/data/background/background-18.jpg');
     background-position: center center;
     background-size: cover;
-    height: 200px;
-    /*margin-bottom: 20px;*/
+    color: white;
+    height: 70px;
 }
 
 nav {
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
 a {

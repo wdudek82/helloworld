@@ -1,2 +1,2 @@
 # helloworld
-Simple Django app to experiment with various layers end elements of the framework, JS, Python, RDBMS (PostgreSQL, MySQL, SQLite), etc.
+Simple Django app to experiment with various layers and elements of the framework, JS (Ajax, AngularJS), Python, RDBMS (PostgreSQL, MySQL, SQLite), Bootstrap, etc.

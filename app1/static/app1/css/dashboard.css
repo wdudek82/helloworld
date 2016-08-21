@@ -1,0 +1,15 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding: 25px;
+}
+
+/*@media screen and (max-width: 767px) {*/
+    /*.row.content {*/
+        /*height: auto;*/
+    /*}*/
+/*}*/

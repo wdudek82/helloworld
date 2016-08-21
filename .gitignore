@@ -1,6 +1,7 @@
 settings-local.py
 *.pyc
 /data
+/static/
 /static_cdn
 /media_cdn
 /backend/development.py

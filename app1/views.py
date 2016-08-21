@@ -91,7 +91,7 @@ class ExampleCreate(RedirectView, Mixins):
 # View for single static test-page; no db orm queries, no dynamic data
 class Boot(View):
     def get(self, request):
-        return render(request, 'app1/btutorial.html')
+        return render(request, 'app1/index.html')
 
 
 ###########################

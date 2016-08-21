@@ -9,24 +9,19 @@
 {% block content %}
 <section class="col-sm-12">
     <h1>{{ question.id }}. {{ question.question_text }}</h1>
-    <ol>
-    {% for choice in question.choice_set.all %}
-        <li>{{ choice.choice_text }}
-            ({{ choice.votes }}
-            {% if choice.votes == 1 %}
-            vote)
-            {% else %}
-            votes)
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ol>
 
-    <p>
-        <a href="{% url 'poll:index' %}" class="btn-sm btn-primary" role="button">
-            Go back
-        </a>
-    </p>
+    {% if error_message %}
+    {{ error_message }}
+    {% endif %}
+
+    <form action="{% url 'poll:vote' question.id %}" method="post">
+        {% csrf_token %}
+        {% for choice in question.choice_set.all %}
+            <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}" />
+            <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+        {% endfor %}
+        <input type="submit" value="Vote">
+    </form>
 </section>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"

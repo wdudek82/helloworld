@@ -1,9 +1,12 @@
+<!DOCTYPE html>
+
 {% load staticfiles %}
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
 
@@ -17,34 +20,82 @@
     <script src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 
     <!-- My CSS -->
-    <link rel='stylesheet' href='{% static "poll/css/poll_style.css" %}' />
+    <link rel="stylesheet" type="text/css" href="{% static 'poll/css/poll_style.css' %}">
+
     <title>
-        {% block head_title %}
-        Polls
-        {% endblock head_title %}
+        {% block title %}
+            Polls
+        {% endblock title %}
     </title>
 </head>
+
 <body>
-    <header class="container bgimage">
-        <h1>Polls App</h1>
-    </header>
 
-    <div class="container">
-        <div class="row">
-            <nav class="btn-group btn-group-sm">
-                <a href="{% url 'poll:index' %}" class="btn btn-info" role="button">Index</a>
-                <a href="#" class="btn btn-primary" role="button">Poll group #1</a>
-                <a href="#" class="btn btn-primary" role="button">Poll group #2</a>
-                <a href="#" class="btn btn-primary" role="button">Poll group #3</a>
-                <a href="#" class="btn btn-warning" role="button">Add new poll</a>
-                <a href="{% url 'adminis' %}" class="btn btn-danger" role="button">Admin</a>
-            </nav>
-            <div>
-                {% block content %}
-
-                {% endblock content %}
-            </div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Portfolio</a>
+        </div> <!-- navbar-header -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="{% url 'poll:index' %}">Home</a></li>
+                <li><a href="#">Poll group #1</a></li>
+                <li><a href="#">Poll group #2</a></li>
+                <li><a href="#">Poll group #3</a></li>
+                <li><a href="#">Add new poll</a></li>
+{#                <li><a href="{% url 'adminis' %}">Admin</a></li>#}
+                <li><a href="/admin/">Admin</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"> Login</span></a></li>
+            </ul>
         </div>
-    </div> <!-- First -->
+    </div> <!-- container-fluid -->
+</nav>
+
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1>Polls App</h1>
+        <p>Official Django Tutorial</p>
+    </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+    <h3>
+    {% block header3 %}Polls{% endblock header3 %}
+    </h3>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Other apps</p>
+                <ul>
+                    <li><a href="{% url 'app1:oexample' 'test-1' %}">App One</a></li>
+                    <li><a href="{% url 'app1:boot' %}">Portfolio</a></li>
+                    <li>App #3</li>
+                    <li>App #4</li>
+                    <li>App #5</li>
+                </ul>
+                <img src="{% static 'poll/img/elitist.png' %}" class="img-responsive" style="width:100%" alt="Image">
+            </div> <!-- left -->
+            <div class="col-sm-6">
+                {% block content %}
+                {% endblock content %}
+            </div> <!-- middle -->
+            <div class="col-sm-3">
+                <p>Some text...</p>
+                <img src="{% static 'poll/img/windows-not-good.gif' %}" class="img-responsive" style="width:60%" alt="Image">
+                <img src="{% static 'poll/img/IE-Prohibido-FDG.jpg' %}" class="img-responsive" style="width:60%" alt="Image">
+            </div> <!-- right -->
+        </div> <!-- row -->
+</div><br><br>
+
+<footer class="container-fluid text-center">
+    <p>Wojciech Dudek, Kraków 2016</p>
+</footer>
+
 </body>
 </html>

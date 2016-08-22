@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="PostgreSQL - helloworld@localhost" uuid="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd">
-      <secret-storage>master_key</secret-storage>
-      <user-name>helloworld</user-name>
-      <introspection-scope>helloworld:helloworld,pg_catalog,public</introspection-scope>
-      <resolve-scope>helloworld:helloworld,public</resolve-scope>
-    </data-source>
+    <data-source name="PostgreSQL - helloworld@localhost" uuid="00bdc0c5-8dd4-4902-ba3f-101f7d35f2dd" />
   </component>
 </project>

@@ -1,23 +1,26 @@
 {% extends 'poll/base.html' %}
 
+{%  load staticfiles %}
+
 {% block head_title %}
 {{ block.super }} | Result for Poll #{{ id }}
 {% endblock head_title %}
 
+{% block header3 %}Results{% endblock header3 %}
 {% block content %}
 
-    <br><b>{{ question}}. {{ question.question_text }}</b>
-    <ul>
-    {% for choice in question.choice_set.all %}
-    <li>
-        {{ choice.choice_text }} ({{ choice.votes }}
-        {% if choice.votes == 1 %}
-        vote)
-        {% else %}
-        votes)
-        {% endif %}
-    </li>
-    {% endfor %}
-    </ul>
+<br><b>{{ question}}. {{ question.question_text }}</b>
+<ul>
+{% for choice in question.choice_set.all %}
+<li>
+    {{ choice.choice_text }} ({{ choice.votes }}
+    {% if choice.votes == 1 %}
+    vote)
+    {% else %}
+    votes)
+    {% endif %}
+</li>
+{% endfor %}
+</ul>
 
 {% endblock content %}

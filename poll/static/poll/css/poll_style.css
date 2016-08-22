@@ -1,15 +1,21 @@
-.bgimage {
+.jumbotron {
     background-image: url('http://feelgrafix.com/data/background/background-18.jpg');
-    background-position: center center;
+    /*background-position: center center;*/
     background-size: cover;
     color: white;
-    height: 70px;
+    /*height: 70px;*/
+    margin-top: 0px;
 }
 
-nav {
-    margin-bottom: 10px;
-}
+/*nav {*/
+    /*margin-bottom: 0px;*/
+/*}*/
 
-a {
-    text-decoration: none;
-}
+/*a {*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*footer {*/
+    /*background-image: url('http://feelgrafix.com/data/background/background-18.jpg');*/
+    /*color: white;*/
+/*}*/

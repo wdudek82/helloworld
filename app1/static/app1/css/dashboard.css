@@ -3,9 +3,24 @@
     border-radius: 0;
 }
 
+.jumbotron {
+    margin: 0px;
+    padding: 10px;
+    height: 200px;
+}
+
+.container-fluid {
+    background-color: #acb4ae;
+    padding: 0px;
+}
+
 footer {
     background-color: #F2F2F2;
     padding: 25px;
+}
+
+mark {
+    background-color: yellow;
 }
 
 /*@media screen and (max-width: 767px) {*/

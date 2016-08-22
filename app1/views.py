@@ -93,6 +93,14 @@ class Boot(View):
     def get(self, request):
         return render(request, 'app1/index.html')
 
+class Portfolio(View):
+    def get(self, request):
+        return render(request, 'app1/portfolio.html')
+
+class Btutorial(View):
+    def get(self, request):
+        return render(request, 'app1/btutorial.html')
+
 
 ###########################
 # Generic Class-based Views

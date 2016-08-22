@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/dist/css/bootstrap-theme.css' %}">
+{#    <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/dist/css/bootstrap-theme.css' %}">#}
 
     <!-- jQuery library -->
     <script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
@@ -31,7 +31,7 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -39,7 +39,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Portfolio</a>
+            <a class="navbar-brand" href="#">Navbar</a>
         </div> <!-- navbar-header -->
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -74,7 +74,8 @@
                 <p>Other apps</p>
                 <ul>
                     <li><a href="{% url 'app1:oexample' 'test-1' %}">App One</a></li>
-                    <li><a href="{% url 'app1:boot' %}">Portfolio</a></li>
+                    <li><a href="{% url 'app1:portfolio' %}">Portfolio</a></li>
+                    <li><a href="{% url 'app1:btutorial' %}">Bootstrap Tootorial</a></li>
                     <li>App #3</li>
                     <li>App #4</li>
                     <li>App #5</li>

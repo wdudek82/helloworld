@@ -19,7 +19,7 @@ from app1 import views
 
 urlpatterns = [
     url(r'^grappelli/', include('grappelli.urls')),
-    url(r'^admin/', admin.site.urls, name='adminis'),
+    url(r'^admin/', admin.site.urls, name='admin'),
 
     url(r'^app1/', include('app1.urls')),
     url(r'^poll/', include('poll.urls')),

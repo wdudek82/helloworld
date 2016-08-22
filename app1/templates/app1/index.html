@@ -7,16 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}">
-
-    <!-- Optional theme -->
     <link rel="stylesheet" type="text/css" href="{% static 'bower_components/bootstrap/dist/css/bootstrap-theme.css' %}">
-
-    <!-- jQuery library -->
     <script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
-
-    <!-- Latest compiled JavaScript -->
     <script src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 
     <!-- My CSS -->
@@ -27,62 +20,31 @@
 
 <body>
 
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Portfolio</a>
-        </div> <!-- navbar-header -->
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"> Login</span></a></li>
-            </ul>
-        </div>
-    </div> <!-- container-fluid -->
-</nav>
-
 <div class="jumbotron">
-    <div class="container text-center">
-        <h1>My portfolio</h1>
-        <p>Some text that represents "Me"...</p>
-    </div>
+    <h1>Bootstrap Tutorial</h1>
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+    responsive, mobile-first projects on the web.</p>
 </div>
 
-<div class="container-fluid bg-3 text-center">
-    <h3>Some of my Work</h3>
+<div class="container-fluid text-center">
     <div class="row">
-        <div class="col-sm-3">
-            <p>Some text...</p>
-            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        <div class="page-header">
+          <h1>Example Page Header</h1>
         </div>
-        <div class="col-sm-3">
-            <p>Some text...</p>
+
+        <nav class="col-sm-2">
+            <p>Some <mark>test</mark> text...</p>
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-3">
-            <p>Some text...</p>
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-3">
+            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+        </nav>
+        <div class="col-sm-10">
             <p>Some text...</p>
             <img src="http://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
         </div>
     </div> <!-- row -->
 </div><br><br>
-
-<footer class="container-fluid text-center">
-    <p>Footer text</p>
-</footer>
 
 </body>
 </html>

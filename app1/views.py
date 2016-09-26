@@ -1,9 +1,10 @@
-from django.shortcuts import render, get_object_or_404, redirect
 from django.core.urlresolvers import reverse
-from django.views.decorators.http import require_safe, require_http_methods
-from django.views.generic import View, RedirectView, DetailView
-from .models import Example
+from django.shortcuts import get_object_or_404, redirect, render
+from django.views.decorators.http import require_http_methods, require_safe
+from django.views.generic import DetailView, RedirectView, View
+
 from .forms import ExampleForm
+from .models import Example
 
 
 # @require_safe
@@ -101,6 +102,9 @@ class Btutorial(View):
     def get(self, request):
         return render(request, 'app1/btutorial.html')
 
+class MobiriseTest(View):
+    def get(self, request):
+        return render(request, 'app1/mobirise.html')
 
 ###########################
 # Generic Class-based Views

@@ -1,8 +1,9 @@
 from datetime import datetime
+
+from django.core.urlresolvers import reverse
 from django.db import models
 from django.db.models.signals import pre_save
 from django.utils.text import slugify
-from django.core.urlresolvers import reverse
 
 
 # Playing with abstract models

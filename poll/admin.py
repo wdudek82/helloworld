@@ -1,6 +1,8 @@
 from django.contrib import admin
 from django.contrib.admin.models import LogEntry
-from .models import Question, Choice
+
+from .models import Choice, Question
+
 
 class ChoiceInline(admin.TabularInline):
     model = Choice

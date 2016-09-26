@@ -19,6 +19,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="{% static 'bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
 
+    <!-- AngularJS -->
+    <script src="{% static 'bower_components/angular/angular.min.js' %}"></script>
+
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'poll/css/poll_style.css' %}">
 
@@ -39,7 +42,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Navbar</a>
+
+            <a class="navbar-brand" href="#">Fancy Logo</a>
         </div> <!-- navbar-header -->
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
@@ -48,7 +52,6 @@
                 <li><a href="#">Poll group #2</a></li>
                 <li><a href="#">Poll group #3</a></li>
                 <li><a href="#">Add new poll</a></li>
-{#                <li><a href="{% url 'adminis' %}">Admin</a></li>#}
                 <li><a href="/admin/">Admin</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">

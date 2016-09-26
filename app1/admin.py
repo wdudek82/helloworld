@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Hello, Example
+
+from .models import Example, Hello
 
 
 class HelloModelAdmin(admin.ModelAdmin):

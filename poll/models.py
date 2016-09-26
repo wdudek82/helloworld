@@ -13,10 +13,12 @@ class Question(models.Model):
         ordering = ['id']
 
     def __str__(self):
-        return str(self.id)
+        # return str(self.id)
+        return self.question_text
 
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now()
+        return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
 
 class Choice(models.Model):

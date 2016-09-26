@@ -1,6 +1,8 @@
 from django import forms
-from .models import Example
 from django.utils import timezone
+
+from .models import Example
+
 
 class ExampleForm(forms.ModelForm):
     class Meta:

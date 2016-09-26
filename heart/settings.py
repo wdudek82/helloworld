@@ -143,7 +143,6 @@ GRAPPELLI_ADMIN_TITLE = 'Hello World!'
 # Debug toolbar settings
 def show_toolbar(request):
     if not request.is_ajax() and request.user and request.user.username == 'neevor':
-    # if not request.is_ajax() and request.user == 'wdudek':
         return True
     return False
 
@@ -156,5 +155,3 @@ if not DEBUG:
     from backend.production import *
 else:
     from backend.development import *
-
-

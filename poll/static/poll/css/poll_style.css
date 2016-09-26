@@ -8,16 +8,20 @@
 }
 
 .navbar {
-   background:rgba(50,0,0,0.7);   /* for latest browsers */
-   /*background: #000;  !* fallback for older browsers *!*/
+    background: rgba(50,0,0,0.7);   /* for latest browsers */
+    border: none;
+    border-radius: 0;
 }
 
+.navbar-inverse .navbar-nav li a {
+    color: white;
+}
 
-/*a {*/
-    /*text-decoration: none;*/
-/*}*/
+.navbar-inverse .navbar-nav li.active a {
+    background: rgba(29, 0, 6, 0.7);
+    color: #f2fff3;
+}
 
-/*footer {*/
-    /*background-image: url('http://feelgrafix.com/data/background/background-18.jpg');*/
-    /*color: white;*/
-/*}*/
+.glyphicon-leaf {
+    font-size: 30px;
+}
